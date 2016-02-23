@@ -1,6 +1,7 @@
 source "https://supermarket.chef.io"
 
-metadata
+#metadata
+
 
 cookbook "docker"
 cookbook "nginx"
