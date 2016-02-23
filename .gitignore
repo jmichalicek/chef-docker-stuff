@@ -5,6 +5,8 @@
 .*.sw[a-z]
 *.un~
 pkg/
+*.pid
+*.out
 
 # Berkshelf
 .vagrant
