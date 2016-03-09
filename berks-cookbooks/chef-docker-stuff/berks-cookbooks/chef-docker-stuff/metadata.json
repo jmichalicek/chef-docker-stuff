@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "docker": "~> 2.0",
-    "apt": ">= 0.0.0"
+    "apt": ">= 0.0.0",
+    "curl": ">= 0.0.0"
   },
   "recommendations": {
   },

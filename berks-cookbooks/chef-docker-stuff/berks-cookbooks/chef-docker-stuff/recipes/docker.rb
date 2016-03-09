@@ -16,5 +16,5 @@ end
 docker_container 'django_app' do
   repo 'debian'
   port '8000:8000'
-  command 'ps aux'
+  command 'bash'
 end

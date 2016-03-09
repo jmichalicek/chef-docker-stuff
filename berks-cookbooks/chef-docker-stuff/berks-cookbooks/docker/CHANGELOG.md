@@ -1,3 +1,19 @@
+v2.5.8
+--------------------
+- Setting desired_state: true for volumes / binds properties
+- Now redeploy container on volume change.
+- Change :restart action behavior to :run containers if they don't
+  exist yet.
+
+v2.5.7
+--------------------
+- Remove vendored gems in favor of chef_gem install
+- Extending available log_driver options
+
+v2.5.6
+--------------------
+- Adding no_proxy to Upstart defaults template
+
 v2.5.5
 --------------------
 - Fixing up various default: nil warnings
